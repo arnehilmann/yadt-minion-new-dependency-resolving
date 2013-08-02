@@ -1,0 +1,40 @@
+
+body {
+    font-family: "Liberation Sans", "Helvetica", "Arial", sans-serif;
+    color: #333;
+}
+
+div.presentation {
+  width: 1024px;
+  height: 576px;
+  margin-left: -512px;
+  margin-top: -288px;
+}
+
+div.slides div.imageslide {
+  width: 1024px;
+  height: 576px;
+}
+
+div.slide {
+  width: 864px;
+  height: 496px;
+}
+
+div.slide h1, div.slide h2 {
+  color: #333;
+}
+
+.whiteheading {
+  text-shadow: 0 0 8px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div.imageslide .whitebody {
+  position: relative;
+  margin-top: 30%;
+  margin-right: 40px;
+  text-align: right;
+  z-index: 3;
+  text-shadow: 0 0 8px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+}

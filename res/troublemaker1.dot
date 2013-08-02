@@ -1,0 +1,19 @@
+digraph G {
+    node[label="", style=filled, fillcolor=orange, color=none, shape=box, fontname=Helvetica];
+
+    cc[label="tomcat", shape=oval, fillcolor=orange]
+    cc -> d[style=dotted, weight=1]
+    cc -> c[weight=1000]
+    {rank=same; cc c d}
+
+    a[label="config", textcolor=white, style=filled];
+    b[label="is24-someapp"]
+    c[label="is24-tomcat", fillcolor=lightgrey]
+    d[label="is24-jcr", fillcolor=red]
+
+    a -> b
+    b -> c
+    b -> d
+
+}
+
